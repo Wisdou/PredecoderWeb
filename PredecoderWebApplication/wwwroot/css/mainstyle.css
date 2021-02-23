@@ -1,0 +1,19 @@
+﻿body {
+    min-width: 480px;
+    font-szie: 14px;
+    font-family: 'Playfair Display', serif;
+    color: #000000;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #b4ad9e;
+}
+
+a:hover {
+    color: #898377;
+}
