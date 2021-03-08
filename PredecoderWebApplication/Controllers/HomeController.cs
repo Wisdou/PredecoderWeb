@@ -23,14 +23,12 @@ namespace PredecoderWebApplication.Controllers
             return View();
         }
 
-        public IActionResult OpenMIPSCodePage()
+        public IActionResult OpenPage(string link = "Index")
         {
-            return View(@"/Home/CodePages/MIPSCodePage");
+            link = @"/Views/Home/" + link + ".cshtml";
+            return View(link);
         }
-        public IActionResult OpenMASMCodePage()
-        {
-            return View(@"/Home/CodePages/MASMCodePage");
-        }
+
         public IActionResult Privacy()
         {
             return View();
